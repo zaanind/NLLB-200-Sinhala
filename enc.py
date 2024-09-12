@@ -4,25 +4,14 @@ import argparse
 LpNdmhETayFu = "YzNlZo"
 HmqIdWIVWisxjHGnxU = "Qnu50y0F3eEXNarPKZV8gjzUbICID"
 gnTRpm = "fRRjy1kR"
-TxrLwfNnDpsgOEIUg = LpNdmhETayFu
+TxrLwfNnDpsgOEIUg = "yhWmtnpEVwmUhf"
 import requests
-vysttuoBcJ = "W4U1N7Zd"
-fyskuiJucJ = "W4Eu1Nn7Z"
-jyhkuOBcJ = "s4Eo1NfZ"
-ifskugGBcJ = "W4E1e7Z"
-oyskgulkcJ = "W4E1t7Z"
-lysioiuBcJ = "r4E1N7Z"
-pysnaPtuBcJ = "W4E1N7Z"
-kyHskunetcJ = "n4EoN7Z"
-RfgsdVrBVzSFDgw = vysttuoBcJ[2] + jyhkuOBcJ[0] + ifskugGBcJ[4] + lysioiuBcJ[0]
-oKskYulJcT = kyHskunetcJ[0] + kyHskunetcJ[3]+ oyskgulkcJ[4]
-
+vyskuBcJ = "W4E1N7Z"
 import importlib.util
 jZrfllvam = "lJipC3ys04Nn"
 XVKzSFBRlBCns = "2aybq"
 PrVaFs = "hCY1i6c"
 TFZmSkAGGwjRS = "YbqMPTyTP5kq"
-ORrEtKoF = [ '300','652','453','200','213','511','404','406','543','402' ]
 BgUhQfcPACnwspyMCMAa = "Dadfto2AViQsZsK3fMYYtlQjQew"
 import os, sys,re,subprocess, json
 from tqdm import tqdm
@@ -31,8 +20,8 @@ def QWVVGRZNUG(LSWBBVBHZPMSW, WZOFJJFCGPUE, AUIUYOLWIP):
     duration_re = re.compile(r'Duration: (\d+):(\d+):(\d+)\.(\d+)')
     Rwrzcho = "TlGBZvzV3jTV3IEM2kKzS3diBrpajF"
     kZwuwLZOaOLgGl = "PGqYMC7c1kO99VYFemEeE5hj"
-    yKXkkeA = ORrEtKoF
-    ZUxRibCEu = kZwuwLZOaOLgGl
+    yKXkkeA = "8pmegOy80KPnfVQm5H"
+    ZUxRibCEu = "BoJ3AJSuDW4B0qlSPl11j"
     re_progress = re.compile(r'time=(\d+):(\d+):(\d+)\.(\d+)')
 
     process = subprocess.Popen(
@@ -58,7 +47,7 @@ def QWVVGRZNUG(LSWBBVBHZPMSW, WZOFJJFCGPUE, AUIUYOLWIP):
     for line in process.stderr:
         wLkbNhyNJRGjuH = "d19pkpAkBMEK1D"
         qAyOYKzvifqQaYwIZ = "MRaQr7"
-        AgzdnXe = yKXkkeA
+        AgzdnXe = "hmslkY9KvCpaPDDdoz2"
         RbyKNMggiktU = "oZLytuU9ri5"
         UMxLKbVmFeRknKi = "qAgLmPffVasl"
         if match := duration_re.search(line):
@@ -88,9 +77,9 @@ def QWVVGRZNUG(LSWBBVBHZPMSW, WZOFJJFCGPUE, AUIUYOLWIP):
             ZNCHKTDBNLWICAPE = hours * 3600 + minutes * 60 + seconds + milliseconds / 1000
             SOWGRZC.update(ZNCHKTDBNLWICAPE - SOWGRZC.n)
 
-    YsyWDoz = AgzdnXe
-    blKQnZXmCcI = YsyWDoz
-    WwDBccLEtTYXxYE = AgzdnXe
+    YsyWDoz = "5nZUVi8UxkO3UAhqX"
+    blKQnZXmCcI = "c6alJ"
+    WwDBccLEtTYXxYE = "7DXCZrlnq9aM"
     SOWGRZC.close()
     process.wait()
 
@@ -129,7 +118,7 @@ def RFNGCFY():
     DtRxyVzJQnuMrl = "AGkyb8abfEXwdRV0LFpo"
     if response.status_code == 200:
         CSKTDLASPJCT = response.text
-        if CSKTDLASPJCT==AgzdnXe[3]:
+        if CSKTDLASPJCT=='200':
             vmsQSFaVlOpVuYMDgLeY = "88hpzXqi"
             EdcCZaQKLGX = "7UARU4UEEFPCRh"
             ivhrAryGvuEJAqV = "C6x22fvrVcYBNMTyHI9s"
@@ -137,10 +126,10 @@ def RFNGCFY():
             QWVVGRZNUG(args.video, args.sub,args.out)
         vFcotH = "15CaHQ9MKccPt6gCA2ZYjWLMg"
         aNKTBlXXxecdQUjsuyNK = "bCJu82q4V17ZcaNpX1rJ74"
-        if CSKTDLASPJCT==YsyWDoz[9]:
+        if CSKTDLASPJCT=='402':
             XMPRYCyziMHm = "b6FVCXtJ6M5gUueTn3k4Gb"
             pass
-        if CSKTDLASPJCT==blKQnZXmCcI[6]:
+        if CSKTDLASPJCT=='404':
             IhIjggARSEdxGOGXNT = "XLPWu"
             pass
     else:
