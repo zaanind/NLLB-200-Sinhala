@@ -16,7 +16,7 @@ BgUhQfcPACnwspyMCMAa = "Dadfto2AViQsZsK3fMYYtlQjQew"
 import os, sys,re,subprocess, json
 from tqdm import tqdm
 
-def QWVVGRZNUG(LSWBBVBHZPMSW, WZOFJJFCGPUE, AUIUYOLWIP):
+def QWVVGRZNUG(LSWBBVBHZPMSW, WZOFJJFCGPUE, AUIUYOLWIP,AEIURORWIP):
     duration_re = re.compile(r'Duration: (\d+):(\d+):(\d+)\.(\d+)')
     Rwrzcho = "TlGBZvzV3jTV3IEM2kKzS3diBrpajF"
     kZwuwLZOaOLgGl = "PGqYMC7c1kO99VYFemEeE5hj"
@@ -31,10 +31,10 @@ def QWVVGRZNUG(LSWBBVBHZPMSW, WZOFJJFCGPUE, AUIUYOLWIP):
             '-i', LSWBBVBHZPMSW,
             '-vf', f'ass={WZOFJJFCGPUE}' ,
             '-c:v', 'h264_nvenc',
+            '-b:v',f'{AEIURORWIP}k',
             '-preset', 'fast',
             '-c:a', 'copy',
-            '-threads', '4',
-            '-disposition:a:0', 'default',
+            '-threads', '8',
             '-stats',
             '-y',
             AUIUYOLWIP
@@ -94,7 +94,9 @@ def RFNGCFY():
     parser.add_argument("--sub", type=str, required=True, help="Output path for the encoded video.")
     parser.add_argument("--out", type=str, required=True, help="output path")
     qPPayISeRYGseFDcaM = "hwixEQljEYdGzZ6LczRO1LEDA8F"
+    parser.add_argument("--bt", type=str, required=True, help="User ID ")
     parser.add_argument("--user", type=str, required=True, help="User ID ")
+    
 
     UaDgUjDfJOpuWzwLvYWy = "CDmDScwDKtxFomOvUC"
     args = parser.parse_args()
@@ -123,7 +125,7 @@ def RFNGCFY():
             EdcCZaQKLGX = "7UARU4UEEFPCRh"
             ivhrAryGvuEJAqV = "C6x22fvrVcYBNMTyHI9s"
             mDKkaKAJceV = "LiPCmvQUH9yck16Bp1EoQ6Vg7lqK"
-            QWVVGRZNUG(args.video, args.sub,args.out)
+            QWVVGRZNUG(args.video, args.sub,args.out,args.bt)
         vFcotH = "15CaHQ9MKccPt6gCA2ZYjWLMg"
         aNKTBlXXxecdQUjsuyNK = "bCJu82q4V17ZcaNpX1rJ74"
         if CSKTDLASPJCT=='402':
